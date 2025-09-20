@@ -25,7 +25,6 @@ langsmith==0.4.14
 orjson==3.11.2
 ormsgpack==1.10.0
 packaging==25.0
-PyAudio==0.2.14
 pydantic==2.11.7
 pydantic_core==2.33.2
 python-dotenv==1.1.1
