@@ -581,7 +581,7 @@ if LANGCHAIN_AVAILABLE and GROQ_API_KEY:
     try:
         llm = ChatGroq(
             groq_api_key=GROQ_API_KEY,
-            model_name=LLM_MODEL,
+            model_name="openai/gpt-oss-120b",
             temperature=0.7,
             max_tokens=2000
         )
